@@ -7,27 +7,15 @@ Project ini memakai beberapa tools
 - Database Firebase
 - Dengan memakai beberapa library dari flutter.dev
 
-## Getting Started
+# Login Presemce
 
-This project is a starting point for a Flutter application.
+Dibawah ini adalah 
 
-A few resources to get you started if this is your first Flutter project:
+- admin     : regisrifaldi44@gmail.com
+- password  : regis123
+  atau
+- admin     : regisrifaldi8@gmail.com
+- password  : stmikamik
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+jika ingin menambah akun untuk mahasiswa password defaultnya adalah **password**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-(admin) 
-regisrifaldi44@gmail.com 
-(password)
-regis123
-
-(admin)
-regisrifaldi8@gmail.com 
-(password)
-stmikamik 
-
-password default (password)
