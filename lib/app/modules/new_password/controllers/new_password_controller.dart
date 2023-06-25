@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 // import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:presence/app/routes/app_pages.dart';
+import 'package:presensi/app/routes/app_pages.dart';
 
 class NewPasswordController extends GetxController {
   TextEditingController newPassC = TextEditingController();

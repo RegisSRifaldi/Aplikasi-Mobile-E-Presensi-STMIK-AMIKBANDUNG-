@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:presence/app/routes/app_pages.dart';
+import 'package:presensi/app/routes/app_pages.dart';
 
 class LoginController extends GetxController {
   RxBool isLoading = false.obs;
@@ -51,7 +51,7 @@ class LoginController extends GetxController {
                         } catch (e) {
                           isLoading.value = false;
                           Get.snackbar("Terjadi Kesalahan",
-                              "Tidak dapat mengirim email verifikasi. Hubungi Admin amik atau custmer service.");
+                              "Tidak dapat mengirim email verifikasi. Hubungi Admin amik atau costumer service.");
                         }
                       },
                       child: Text("KIRIM ULANG"))

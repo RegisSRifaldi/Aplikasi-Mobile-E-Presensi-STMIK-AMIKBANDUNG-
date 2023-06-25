@@ -7,7 +7,8 @@ class AddMahasiswaController extends GetxController {
   RxBool isLoading = false.obs;
   RxBool isLoadingAddMahasiswa = false.obs;
   TextEditingController nameC = TextEditingController();
-  TextEditingController nimC = TextEditingController();
+  TextEditingController jobC = TextEditingController();
+  TextEditingController npmC = TextEditingController();
   TextEditingController emailC = TextEditingController();
   TextEditingController passAdminC = TextEditingController();
 
@@ -34,8 +35,9 @@ class AddMahasiswaController extends GetxController {
           String uid = mahasiswaCredential.user!.uid;
 
           await firestore.collection("mahasiswa").doc(uid).set({
-            "nim": nimC.text,
+            "npm": npmC.text,
             "name": nameC.text,
+            "job": jobC.text,
             "email": emailC.text,
             "uid": uid,
             "role": "mahasiswa",
@@ -85,7 +87,8 @@ class AddMahasiswaController extends GetxController {
   Future<void> addMahasiswa() async {
     isLoading.value = true;
     if (nameC.text.isNotEmpty &&
-        nimC.text.isNotEmpty &&
+        jobC.text.isNotEmpty &&
+        npmC.text.isNotEmpty &&
         emailC.text.isNotEmpty) {
       Get.defaultDialog(
         title: "Validasi Admin",
@@ -128,7 +131,8 @@ class AddMahasiswaController extends GetxController {
         ],
       );
     } else {
-      Get.snackbar("Terjadi Kesalahan", "NIM, Nama, dan Email harus diisi.");
+      Get.snackbar(
+          "Terjadi Kesalahan", "NIM, Nama, Job, dan Email harus diisi.");
     }
   }
 }

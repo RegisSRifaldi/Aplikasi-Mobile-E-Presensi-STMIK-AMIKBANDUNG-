@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:presence/app/routes/app_pages.dart';
+import 'package:presensi/app/routes/app_pages.dart';
 
 import '../controllers/login_controller.dart';
 
@@ -9,6 +9,7 @@ class LoginView extends GetView<LoginController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('LOGIN'),
         centerTitle: true,

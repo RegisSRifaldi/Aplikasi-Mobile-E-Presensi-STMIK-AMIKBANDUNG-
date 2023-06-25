@@ -17,9 +17,9 @@ class AddMahasiswaView extends GetView<AddMahasiswaController> {
           children: [
             TextField(
               autocorrect: false,
-              controller: controller.nimC,
+              controller: controller.npmC,
               decoration: InputDecoration(
-                labelText: "NIM",
+                labelText: "NPM",
                 border: OutlineInputBorder(),
               ),
             ),
@@ -29,6 +29,15 @@ class AddMahasiswaView extends GetView<AddMahasiswaController> {
               controller: controller.nameC,
               decoration: InputDecoration(
                 labelText: "Name",
+                border: OutlineInputBorder(),
+              ),
+            ),
+            SizedBox(height: 20),
+            TextField(
+              autocorrect: false,
+              controller: controller.jobC,
+              decoration: InputDecoration(
+                labelText: "Job",
                 border: OutlineInputBorder(),
               ),
             ),
