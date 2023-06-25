@@ -274,3 +274,5 @@ class HomeView extends GetView<HomeController> {
     );
   }
 }
+
+// Regis Syawaludin Rifaldi - 2142010

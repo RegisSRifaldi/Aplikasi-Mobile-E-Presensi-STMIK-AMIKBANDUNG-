@@ -36,3 +36,6 @@ class ForgotPasswordView extends GetView<ForgotPasswordController> {
     );
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

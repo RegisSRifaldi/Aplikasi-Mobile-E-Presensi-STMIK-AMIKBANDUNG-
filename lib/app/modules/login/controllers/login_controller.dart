@@ -75,3 +75,6 @@ class LoginController extends GetxController {
     }
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

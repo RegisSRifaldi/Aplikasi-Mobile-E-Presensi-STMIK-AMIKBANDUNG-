@@ -18,3 +18,6 @@ class DetailPresensiController extends GetxController {
   void onClose() {}
   void increment() => count.value++;
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

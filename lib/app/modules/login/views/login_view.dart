@@ -96,3 +96,6 @@ class LoginView extends GetView<LoginController> {
     );
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

@@ -63,7 +63,11 @@ class DefaultFirebaseOptions {
     messagingSenderId: '67855140202',
     projectId: 'presence-e3b66',
     storageBucket: 'presence-e3b66.appspot.com',
-    iosClientId: '67855140202-sffdkdqvbpntjuf69d3rdatrof5886ro.apps.googleusercontent.com',
+    iosClientId:
+        '67855140202-sffdkdqvbpntjuf69d3rdatrof5886ro.apps.googleusercontent.com',
     iosBundleId: 'com.presenceprojectamik.presence',
   );
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

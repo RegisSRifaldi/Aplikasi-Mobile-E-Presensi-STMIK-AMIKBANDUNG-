@@ -121,3 +121,5 @@ class AllPresensiView extends GetView<AllPresensiController> {
     );
   }
 }
+
+// Regis Syawaludin Rifaldi - 2142010

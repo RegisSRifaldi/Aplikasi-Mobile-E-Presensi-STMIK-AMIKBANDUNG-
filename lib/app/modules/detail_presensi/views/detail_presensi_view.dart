@@ -72,3 +72,6 @@ class DetailPresensiView extends GetView<DetailPresensiController> {
         ]));
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

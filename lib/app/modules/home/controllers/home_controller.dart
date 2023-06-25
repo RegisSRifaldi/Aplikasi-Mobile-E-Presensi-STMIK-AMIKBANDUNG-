@@ -41,3 +41,5 @@ class HomeController extends GetxController {
         .snapshots();
   }
 }
+
+// Regis Syawaludin Rifaldi - 2142010

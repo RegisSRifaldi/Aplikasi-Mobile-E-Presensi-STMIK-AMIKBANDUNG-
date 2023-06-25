@@ -66,3 +66,5 @@ class AddMahasiswaView extends GetView<AddMahasiswaController> {
         ));
   }
 }
+
+// Regis Syawaludin Rifaldi - 2142010

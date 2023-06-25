@@ -24,3 +24,5 @@ class ForgotPasswordController extends GetxController {
     }
   }
 }
+
+// Regis Syawaludin Rifaldi - 2142010

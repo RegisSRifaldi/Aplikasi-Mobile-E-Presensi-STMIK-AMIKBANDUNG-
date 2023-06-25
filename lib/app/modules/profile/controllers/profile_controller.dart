@@ -18,3 +18,5 @@ class ProfileController extends GetxController {
     Get.offAllNamed(Routes.LOGIN);
   }
 }
+
+// Regis Syawaludin Rifaldi - 2142010

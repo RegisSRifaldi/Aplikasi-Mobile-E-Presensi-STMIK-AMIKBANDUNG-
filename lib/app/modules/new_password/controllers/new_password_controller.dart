@@ -42,3 +42,6 @@ class NewPasswordController extends GetxController {
     }
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

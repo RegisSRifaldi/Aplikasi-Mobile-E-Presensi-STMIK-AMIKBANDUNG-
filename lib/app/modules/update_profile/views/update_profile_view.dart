@@ -126,3 +126,6 @@ class UpdateProfileView extends GetView<UpdateProfileController> {
     );
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

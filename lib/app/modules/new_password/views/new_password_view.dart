@@ -34,3 +34,6 @@ class NewPasswordView extends GetView<NewPasswordController> {
         ));
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

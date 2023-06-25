@@ -110,3 +110,6 @@ class ProfileView extends GetView<ProfileController> {
     );
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

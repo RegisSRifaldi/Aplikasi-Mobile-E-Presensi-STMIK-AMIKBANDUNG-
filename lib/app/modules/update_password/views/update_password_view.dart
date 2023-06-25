@@ -62,3 +62,6 @@ class UpdatePasswordView extends GetView<UpdatePasswordController> {
     );
   }
 }
+
+
+// Regis Syawaludin Rifaldi - 2142010

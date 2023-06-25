@@ -44,3 +44,5 @@ class AllPresensiController extends GetxController {
     Get.back();
   }
 }
+
+// Regis Syawaludin Rifaldi - 2142010
