@@ -11,9 +11,15 @@ Project ini memakai beberapa tools
 
 Dibawah ini adalah 
 
-- admin     : regisrifaldi44@gmail.com
-- password  : regis123
+#Mahasiswa
+
+- mahasiswa    : regisrifaldi44@gmail.com
+- password     : regis123
   atau
+- mahasiswa    : regissyawaludinrifaldi@gmail.com
+- password     : gis123
+
+#Admin
 - admin     : regisrifaldi8@gmail.com
 - password  : stmikamik
 
