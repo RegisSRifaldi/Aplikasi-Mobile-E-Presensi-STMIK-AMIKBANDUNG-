@@ -16,7 +16,7 @@ Dibawah ini adalah
 - mahasiswa    : regisrifaldi44@gmail.com
 - password     : regis123
   atau
-- mahasiswa    : regissyawaludinrifaldi@gmail.com
+- mahasiswa    : regissyawaludinrifaldi18@gmail.com
 - password     : gis123
 
 #Admin
